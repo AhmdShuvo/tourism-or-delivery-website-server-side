@@ -13,6 +13,7 @@ const port = process.env.PORT || 9000;
 
     app.use(express.json());
 
+
 // Connection uri ///
  const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.0qtlc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -22,10 +23,20 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         await client.connect();
+        console.log('connected to db');
         const database = client.db('travelGuid');
-        const movies = database.collection('places');
+        const placesCollection = database.collection('places');
+
+      
+        app.get('/places',async(req,res)=>{
+
+                 const cursor=placesCollection.find({})
+                 const places=await cursor.toArray()
 
 
+                 res.json(places)
+
+        })
 
     } finally {
         // Ensures that the client will close when you finish/error

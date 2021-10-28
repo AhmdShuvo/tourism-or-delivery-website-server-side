@@ -1,0 +1,178 @@
+[
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/a798492/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/edited_south_island_nz_getty_irma_ferreira_445x280_dxgXWlc.jpg",
+      "cost": 235,
+      "name": "South Island",
+      "company": "VORATAK",
+      "email": "inaodom@voratak.com",
+      "phone": "+1 (860) 419-2747",
+      "Country": " New Zealand",
+      "about": "New Zealand's South Island brims with majestic landscapes at every turn, from dramatic mountains to fjords to glaciers. Here, you can admire the mountains of Fiordland National Park, a UNESCO World Heritage Site, from hiking trails or a boat on Milford Sound. At night, journey to the University of Canterbury's Mount John Observatory to gaze at the starry skies. You can also indulge your inner daredevil in Queenstown, explore two of the most accessible glaciers in the world on the island's west coast or sample delicious food and wine in the Marlborough region."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/c5a8f6d/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/gettyimages-532590277_2ZNe4ra.jpg",
+      "cost": 232,
+      "name": "Paris",
+      "company": "FOSSIEL",
+      "email": "barberbird@fossiel.com",
+      "phone": "+1 (857) 480-2675",
+      "Country": "France",
+      "about": "The magnetic City of Light draws visitors from around the globe who come to see iconic attractions like the Eiffel Tower, the Louvre and the Arc de Triomphe. But what travelers really fall in love with are the city's quaint cafes, vibrant markets, trendy shopping districts and unmistakable je ne sais quoi charm. Get lost wandering along Paris' cobblestone streets, or grab a croissant and relax on the banks of the Seine for hours. If you're up for a quick daytrip, head about 15 miles southwest of the city center to another must-see attraction: the Palace of Versailles."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/472cf27/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/borabora_445x280_dtTOVY1.jpg",
+      "cost": 273,
+      "name": "Bora Bora",
+      "company": "UNIWORLD",
+      "email": "michelesmith@uniworld.com",
+      "phone": "+1 (883) 562-2400",
+      "Country": "French Polynesia",
+      "about": "What this small French Polynesian island may lack in size it makes up for in sheer tropical beauty. Here, you'll find picturesque beaches, lush jungles and luxurious resorts. The island's dormant volcano, Mount Otemanu, makes for a great photo-op or challenging hike, and the friendly Bora Bora locals can help you catch a glimpse of the island's best sights during an off-road excursion. To relax, head to Matira Beach for crystal-clear water and soft sand. Although a trip to Bora Bora is very expensive, most travelers say it's worth every penny."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/070489a/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/GettyImages-117211856_TeGITRy.jpg",
+      "cost": 344,
+      "name": "Maui",
+      "company": "GORGANIC",
+      "email": "summerblanchard@gorganic.com",
+      "phone": "+1 (875) 572-2712",
+      "Country": "Hawaii",
+      "about": "Whether you're driving along the Road to Hana, enjoying a bird's-eye view of the lush coastline from a helicopter, snorkeling with sea turtles or simply relaxing on the Hawaiian island's honey- or black-colored beaches, you'll find that Maui is unlike any other tropical destination. Don't miss a chance to visit Haleakala National Park, which is home to the world's largest dormant volcano. You should also attend a luau for a dose of local culture and a taste of Hawaiian specialties like poi, poke and mahimahi."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/a600cb2/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/tahiti_main_getty_samantha_t_photography_edited_445x280_v43QKbF.jpg",
+      "cost": 362,
+      "name": "Tahiti",
+      "company": "TERSANKI",
+      "email": "hortonavila@tersanki.com",
+      "phone": "+1 (860) 520-3587",
+      "Country": "French Polynesia",
+      "about": "Travel to this island – the largest in French Polynesia – if you've been dreaming of a vacation spent lazing in a lavish overwater bungalow. Beyond the posh resorts, Tahiti boasts black sand beaches, a bustling capital and prime snorkeling and surfing conditions. If you're looking for more cultural experiences, check out some of the island's ancient temples or shop at its traditional covered markets. To save money, opt to stay in a vacation rental."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/0e6734a/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/482151882_HjS9rWb.jpg",
+      "cost": 312,
+      "name": "London",
+      "company": "QUILM",
+      "email": "greeneburgess@quilm.com",
+      "phone": "+1 (998) 504-3396",
+      "Country": "England",
+      "about": "London is a world unto itself. The eclectic neighborhoods, which are home to a blend of historical landmarks and modern-day attractions, can keep you occupied for days. If it's your first time in London, plan to visit the Tower of London, Tate Modern, Buckingham Palace or the British Museum before sitting down to a classic afternoon tea. The best time to travel to London is during the warmer months, but be warned that this is also the busiest and most expensive time of year."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/981979e/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/main_image_cropped_rome_445x280_f0qQD4i.jpg",
+      "cost": 216,
+      "name": "Rome",
+      "company": "NAMEBOX",
+      "email": "cynthiafrederick@namebox.com",
+      "phone": "+1 (979) 475-2806",
+      "Country": "Italy",
+      "about": "When you visit the Eternal City, prepare to cross a few must-see attractions – including the Colosseum, the Trevi Fountain and the Pantheon – off of your bucket list. Additional treasures, such as St. Peter's Basilica and the Sistine Chapel, can be found in nearby Vatican City. Escape the tourist crowds by taking a twilight stroll along the cobblestone streets of Trastevere, or head to Mercato Centrale Roma to sample local delicacies like gelato and pizza. Before leaving, peruse some of Rome's lesser-known museums, art galleries and boutiques."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/4ef5ab1/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/main_image_2017_getty_resized_445x280_lr3LLEU.jpg",
+      "cost": 290,
+      "name": "Phuket",
+      "company": "GLUID",
+      "email": "careyjuarez@gluid.com",
+      "phone": "+1 (811) 403-2289",
+      "Country": "Thailand",
+      "about": "Located in southern Thailand, Phuket offers something for everyone, especially budget-minded travelers. Activities like spa treatments and boat tours come with low price tags, as do accommodations. For stunning scenery, check out the limestone cliffs of Phang Nga Bay and lounge on Phuket's gorgeous white sand beaches (Freedom Beach and Bangtao Beach are two visitor favorites). Other must-sees include Wat Chalong Temple and the Big Buddha. Once the sun sets, take part in the island's lively nightlife scene."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/41b8fe6/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/gettyimages-edited_445x280_13NCYXq.jpg",
+      "cost": 298,
+      "name": "Tokyo",
+      "company": "EVENTAGE",
+      "email": "rhodeshebert@eventage.com",
+      "phone": "+1 (980) 481-3185",
+      "Country": "Japan",
+      "about": "Simply setting foot in Japan's cosmopolitan capital is an experience within itself. A city known for its bustling streets and flashing neon signs, Tokyo has an electric energy and plenty of attractions to discover. Foodies won't be let down by the city's fresh sushi and hearty ramen. Budding photographers and adrenaline junkies will love taking in the sweeping panoramas from the top of the Tokyo Skytree. Shopaholics will find plenty of must-have designer products in Ginza. And for history buffs, Tokyo offers centuries-old temples and shrines to explore."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/1894bcf/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/gett1_445x280_S9ZiJnK.jpg",
+      "cost": 349,
+      "name": "Barcelona",
+      "company": "PROVIDCO",
+      "email": "conleybeck@providco.com",
+      "phone": "+1 (897) 400-2216",
+      "Country": "Spain",
+      "about": "This Spanish city is a feast for the eyes: Visitors can walk past medieval architecture in the Barri Gòtic, snap photos of the intricate Basilica de la Sagrada Família and marvel at Antoni Gaudí's whimsical creations in Park Güell. La Barceloneta beach and the Parc de la Ciutadella are perfect places to pass the time on a sunny day before checking out the restaurants and bars along Las Ramblas, which buzzes at all hours of the night. For travelers who want to see Barcelona from above, trek up Mount Tibidabo or to the Bunkers del Carmel."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/00e9466/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/gettyimages-520025941_5j9mOtt.jpg",
+      "cost": 254,
+      "name": "Maldives",
+      "company": "ISOTERNIA",
+      "email": "craftcamacho@isoternia.com",
+      "phone": "+1 (839) 474-2844",
+      "Country": "Maldives",
+      "about": "It is not cheap or easy to reach, but this isolated paradise between the Arabian and Laccadive seas is the personification of a dreamy tropical vacation. In this South Asian destination, which is made up of more than 1,000 islands, thatched-roof bungalows sit above crystal-clear aquamarine waters, providing easy water access and a romantic atmosphere. Fill your days with beach trips, spa treatments and snorkeling or scuba diving excursions. If cabin fever sets in, pay a visit to the capital, Malé, where you'll find historic mosques and open-air markets."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/8468e04/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/445_280_1296099441_a936e2155c_b_445x280_QbEpnh1.jpg",
+      "cost": 312,
+      "name": "Bali",
+      "company": "SUSTENZA",
+      "email": "ethelmullins@sustenza.com",
+      "phone": "+1 (942) 437-3362",
+      "Country": "Indonesia",
+      "about": "Serene temples and beautiful beaches are the biggest draws to this lush Indonesian paradise. And we do mean lush – the region's notoriously soggy wet season is best avoided by planning a visit between April and October. Break up your beach time with a visit to the village of Kintamani, home to a towering (and active) volcano, as well as a large lake. If you're craving an adrenaline rush, rent a scooter and zip around the island, or hop on one of Bali's many swings to soar above rice terraces and jungles."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/4d06a60/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/183346577_JrseKsM.jpg",
+      "cost": 216,
+      "name": "Dubai",
+      "company": "LIQUICOM",
+      "email": "knowlestravis@liquicom.com",
+      "phone": "+1 (832) 558-2906",
+      "Country": "United Arab Emirates",
+      "about": "Stunning Persian Gulf views, heart-pumping activities and historical landmarks await you in Dubai. This Middle Eastern city is filled with some of the world's most notable and unique attractions, including the Burj Khalifa, the Dubai Mall and indoor Ski Dubai. But the city still holds onto its heritage, as seen in the Bastakiya Quarter and the traditional Gold and Spice souks. When you need a break from the hustle and bustle of the city, head to a sandy shore like Jumeirah Beach, Sunset Beach or Al Mamzar Beach Park."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/e929997/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/niagara_falls_getty_main_resized_445x280_YGLqknI.jpg",
+      "cost": 375,
+      "name": "Niagara Falls",
+      "company": "PODUNK",
+      "email": "casandramanning@podunk.com",
+      "phone": "+1 (832) 546-3227",
+      "Country": "Canada",
+      "about": "A spectacular cluster of three waterfalls, Niagara Falls is a must-see if you want a glimpse of some of North America's best natural sites. You can experience the falls from below on the famous Maid of the Mist boat tour or marvel at the scene from above in the Skylon Tower. There are also miles of hiking trails around the falls that provide breathtaking views. Regardless of whether you stay on the New York or Canadian side of the falls, you'll enjoy easy access to all of this natural wonder's impressive panoramas."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/f149ca4/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/main_getty_cropped_445x280_SkIuoim.jpg",
+      "cost": 329,
+      "name": "San Francisco",
+      "company": "OMATOM",
+      "email": "lawandagriffin@omatom.com",
+      "phone": "+1 (929) 595-3503",
+      "Country": "California",
+      "about": "Home to some of America's most recognizable landmarks – including the Golden Gate Bridge, Fisherman's Wharf and Alcatraz Island – San Francisco has the ability to satisfy outdoorsy types, foodies and curious wanderers of all ages. Prioritize exploring the Castro district, eating your way through Chinatown, browsing the thrift shops in Haight-Ashbury and admiring nearby Muir Woods National Monument. Don't forget to also save time for a picnic with a city view in a popular spot like Bernal Heights Park or Mission Dolores Park."
+    },
+    {
+      "status": "pending",
+      "picture": "https://travel.usnews.com/dims4/USNEWS/e07353f/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/main_image_cropped_445x280_zWEBjoE.jpg",
+      "cost": 330,
+      "name": "Amalfi Coast",
+      "company": "QUINTITY",
+      "email": "robbinsriley@quintity.com",
+      "phone": "+1 (958) 476-3652",
+      "Country": " Italy",
+      "about": "Few places in the world can rival the natural beauty found along the Amalfi Coast. This region on the southern edge of Italy's Sorrentine Peninsula is home to 13 quaint towns etched into seaside cliffs. Among the pastel-hued fishing villages, you'll find upscale hotels and resorts, plus plenty of delectable Italian wine and food that ranges from rustic to refined. For a scenic and relaxing daytrip, take a boat to the nearby island of Capri to admire natural wonders like the Blue Grotto."
+    }
+  ]
