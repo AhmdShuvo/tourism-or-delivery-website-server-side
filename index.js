@@ -14,6 +14,12 @@ const port = process.env.PORT || 9000;
     app.use(express.json());
 
 
+
+    app.get('/', async (req, res) => {
+
+        res.send("server Running")
+    })
+
 // Connection uri ///
  const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.0qtlc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -26,8 +32,9 @@ async function run() {
         console.log('connected to db');
         const database = client.db('travelGuid');
         const placesCollection = database.collection('places');
+        const usersCollection = database.collection('users');
 
-      
+                //    get data from data base to url ///
         app.get('/places',async(req,res)=>{
 
                  const cursor=placesCollection.find({})
@@ -36,21 +43,41 @@ async function run() {
 
                  res.json(places)
 
+        });
+
+      
+        
+
+        app.post('/orders',async(req,res)=>{
+
+               const userData=req.body;
+               
+               const result= await usersCollection.insertOne(userData)
+                 res.json(result)
+
         })
+
+        app.get('/orders',async(req,res)=>{
+
+            const cursor=usersCollection.find({})
+            const users=await cursor.toArray()
+        
+            res.json(users)
+        })
+
+        
+
 
     } finally {
         // Ensures that the client will close when you finish/error
         //   await client.close();
     }
 }
+
 run().catch(console.dir);
 
-
 //    Root path ///
-app.get('/', async (req, res) => {
 
-    res.send("server Running")
-})
 
 
 // listening to port ///
