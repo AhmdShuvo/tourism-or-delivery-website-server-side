@@ -90,7 +90,7 @@ async function run() {
 
        
 
-        app.get("/order/:email",async (req,res)=>{
+        app.get("/orders/:email",async (req,res)=>{
 
             const email=req.params;
          
