@@ -81,11 +81,23 @@ async function run() {
             },
           };
 
-          const result= await usersCollection.updateMany(filter,updateDoc,options)
+          const result= await usersCollection.updateOne(filter,updateDoc,options)
          
 
 
            res.json(result)
+        })
+
+        
+        app.get("/order/:email",async (req,res)=>{
+
+            const email=req.params;
+         
+          const query={Email:email.email}
+
+           const result= await usersCollection.find(query).toArray()
+           console.log(result);
+            res.send(result)
         })
 
         app.get("/order/:id", async (req,res)=>{
@@ -101,16 +113,6 @@ async function run() {
  
         })
 
-        app.get("/order/:email",async (req,res)=>{
-
-            const email=req.params;
-         
-          const query={Email:email.email}
-
-           const result= await usersCollection.find(query).toArray()
-           console.log(result);
-            res.send(result)
-        })
 
         
 
