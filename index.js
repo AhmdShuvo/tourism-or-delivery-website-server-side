@@ -87,7 +87,16 @@ async function run() {
 
            res.json(result)
         })
+                       
+        app.delete("/order/:id",async(req,res)=>{
 
+            const id=req.params.id;
+
+            const query={_id: Objectid(id)}
+            const result=await usersCollection.deleteOne(query);
+
+            res.send(result)
+        })
        
 
         app.get("/orders/:email",async (req,res)=>{
@@ -100,7 +109,7 @@ async function run() {
            console.log(result);
             res.send(result)
         });
-
+        
         app.get("/order/:id", async (req,res)=>{
 
             const id=req.params.id;
@@ -113,6 +122,8 @@ async function run() {
 
  
         })
+       
+
 
         
 
