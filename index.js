@@ -4,6 +4,7 @@ const app = (express())
 require("dotenv").config();
 const Objectid=require('mongodb').ObjectId;
 const { MongoClient} = require("mongodb");
+const { query } = require("express");
 
 
 
@@ -80,11 +81,24 @@ async function run() {
             },
           };
 
-          const result= await usersCollection.updateOne(filter,updateDoc,options)
+          const result= await usersCollection.updateMany(filter,updateDoc,options)
          
 
 
            res.json(result)
+        })
+
+        app.get("/order/:id", async (req,res)=>{
+
+            const id=req.params.id;
+
+            const query={_id:Objectid(id)}
+
+
+            const cursor= await usersCollection.find(query).toArray();
+            res.json(cursor)
+
+ 
         })
 
         app.get("/order/:email",async (req,res)=>{
