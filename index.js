@@ -2,7 +2,8 @@ const express = require("express");
 const cors = require("cors")
 const app = (express())
 require("dotenv").config();
-const { MongoClient } = require("mongodb");
+const Objectid=require('mongodb').ObjectId;
+const { MongoClient} = require("mongodb");
 
 
 
@@ -65,6 +66,38 @@ async function run() {
             res.json(users)
         })
 
+        app.put("/order/:id",async(req,res)=>{
+            const id=req.params.id;
+            console.log('id ',id);
+          
+          const updateUser=req.body;
+        console.log(updateUser);
+           const filter={_id: Objectid(id)}
+           const options = { upsert: true };
+           const updateDoc = {
+            $set: {
+              status: `active`
+            },
+          };
+
+          const result= await usersCollection.updateOne(filter,updateDoc,options)
+         
+
+
+           res.json(result)
+        })
+
+        app.get("/order/:email",async (req,res)=>{
+
+            const email=req.params;
+         
+          const query={Email:email.email}
+
+           const result= await usersCollection.find(query).toArray()
+           console.log(result);
+            res.send(result)
+        })
+
         
 
 
@@ -85,3 +118,4 @@ app.listen(port, () => {
     console.log("Running on port", port);
 
 })
+
