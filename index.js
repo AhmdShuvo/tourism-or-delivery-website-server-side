@@ -57,6 +57,15 @@ async function run() {
                const result= await usersCollection.insertOne(userData)
                  res.json(result)
 
+        });
+
+        app.post("/places",async(req,res)=>{
+
+            const product=req.body;
+
+            const result=await placesCollection.insertOne(product);
+            console.log(result);
+            res.send(result)
         })
 
         app.get('/orders',async(req,res)=>{
